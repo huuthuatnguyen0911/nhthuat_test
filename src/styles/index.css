@@ -1,0 +1,57 @@
+.backgroud_right {
+  background-image: url('../assets/vertor_1.svg'), url('../assets/vertor_2.svg'), url('../assets/vertor_3.svg');
+  z-index: -1;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .respon_img {
+    display: absolute;
+    right: 0px;
+  }
+  .tier_style {
+    font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .respon_img {
+    display: absolute;
+    right: 45px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .respon_img {
+    display: absolute;
+    right: 13px;
+  }
+
+  .tier_style {
+    font-size: 9px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .respon_img {
+    display: absolute;
+    right: -5px;
+  }
+
+  .tier_style {
+    font-size: 7px;
+  }
+}
+
+.border-gradient {
+  background-color: #0e132812;
+  border-image: linear-gradient(
+      179.03deg,
+      rgba(255, 255, 255, 0.8) 0.83%,
+      rgba(207, 207, 207, 0) 47.54%,
+      rgba(255, 255, 255, 0.8) 99.17%
+    )
+    1;
+  border-style: solid;
+  border-width: 0.69px;
+}
